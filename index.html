@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title data-page-title="meta.home_title">Lumis Media</title>
+<meta name="description" content="Lumis Media is a web design studio building fast, accessible websites and brand identities for ambitious businesses.">
+<link rel="icon" href="assets/img/logo.jpg">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main" data-i18n="common.skip_link">Skip to main content</a>
+
+<!-- ===== Navbar ===== -->
+<div class="nav-wrap">
+  <div class="container">
+    <nav class="navbar" aria-label="Primary">
+      <a class="brand" href="index.html">
+        <img src="assets/img/logo.jpg" alt="Lumis Media logo" width="38" height="38">
+        <span class="brand-word">lumis<span>.</span></span>
+      </a>
+      <div class="nav-links" role="menubar">
+        <a href="index.html" aria-current="page" data-i18n="common.nav.home">Home</a>
+        <a href="work.html" data-i18n="common.nav.work">Work</a>
+        <a href="services.html" data-i18n="common.nav.services">Services</a>
+        <a href="about.html" data-i18n="common.nav.about">About</a>
+        <a href="contact.html" data-i18n="common.nav.contact">Contact</a>
+      </div>
+      <div class="nav-actions">
+        <div class="lang-switch" data-lang-switch>
+          <button class="lang-btn" data-lang-toggle aria-haspopup="true" aria-expanded="false" aria-label="Change language">
+            <svg viewBox="0 0 24 24" fill="none" width="16" height="16" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.7 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.7-3.8-9s1.3-6.4 3.8-9Z"/></svg>
+            <span data-lang-current>EN</span>
+          </button>
+          <div class="lang-menu" role="menu">
+            <button role="menuitem" data-lang-option="en">English</button>
+            <button role="menuitem" data-lang-option="de">Deutsch</button>
+          </div>
+        </div>
+        <a class="btn btn-primary" href="contact.html" data-i18n="common.nav_cta">Start a project</a>
+        <button class="nav-toggle" data-menu-toggle aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+          <svg viewBox="0 0 24 24" fill="none" width="20" height="20" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </nav>
+  </div>
+</div>
+
+<!-- ===== Mobile menu ===== -->
+<div class="mobile-menu" id="mobile-menu" data-mobile-menu>
+  <div class="mobile-menu-panel">
+    <button class="mobile-menu-close" data-menu-close aria-label="Close menu">
+      <svg viewBox="0 0 24 24" fill="none" width="18" height="18" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <a href="index.html" data-i18n="common.nav.home">Home</a>
+    <a href="work.html" data-i18n="common.nav.work">Work</a>
+    <a href="services.html" data-i18n="common.nav.services">Services</a>
+    <a href="about.html" data-i18n="common.nav.about">About</a>
+    <a href="contact.html" data-i18n="common.nav.contact">Contact</a>
+    <a class="btn btn-primary btn-block mt-2" href="contact.html" data-i18n="common.nav_cta">Start a project</a>
+  </div>
+</div>
+
+<main id="main">
+
+  <!-- ===== Hero ===== -->
+  <section class="hero" data-hero>
+    <div class="hero-bg-blob" data-hero-blob aria-hidden="true"></div>
+    <div class="container hero-grid">
+      <div class="hero-copy" data-reveal>
+        <span class="eyebrow" data-i18n="home.hero.eyebrow">Creative Media Studio</span>
+        <h1 data-i18n="home.hero.title">We craft stories your audience can't scroll past.</h1>
+        <p class="text-lead" data-i18n="home.hero.lead">Lumis Media blends strategy, design and motion to help ambitious brands cut through the noise — across every screen, in every language.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="contact.html">
+            <span data-i18n="home.hero.cta_primary">Start a project</span>
+            <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a class="btn btn-ghost" href="work.html" data-i18n="home.hero.cta_secondary">See our work</a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <div class="num"><span class="grad" data-counter="120+">0</span></div>
+            <div class="label" data-i18n="home.stats.s1_label">Projects delivered</div>
+          </div>
+          <div class="hero-stat">
+            <div class="num"><span class="grad" data-counter="40+">0</span></div>
+            <div class="label" data-i18n="home.stats.s2_label">Brands worldwide</div>
+          </div>
+          <div class="hero-stat">
+            <div class="num"><span class="grad" data-counter="8">0</span></div>
+            <div class="label" data-i18n="home.stats.s3_label">Years of craft</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual" data-reveal data-reveal-delay="2">
+        <div class="hero-visual-card">
+          <div class="dot" aria-hidden="true"></div>
+          <div>
+            <div style="font-weight:600" data-i18n="home.hero.card_title">Now filming</div>
+            <div class="text-soft" style="font-size:0.85rem" data-i18n="home.hero.card_text">Season 2 brand documentary — on set in Vienna</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Client marquee ===== -->
+  <section class="section-tight">
+    <div class="container text-center" data-reveal>
+      <p class="text-soft" style="font-size:0.85rem; letter-spacing:0.04em; text-transform:uppercase; margin-bottom:1.5rem;" data-i18n="home.marquee_eyebrow">Trusted by teams building bold brands</p>
+    </div>
+    <div class="marquee">
+      <div class="marquee-track" aria-hidden="true">
+        <span>Nordbrew</span><span>Orbitfit</span><span>Havenwood</span><span>Solstice</span><span>Kindred</span><span>Auralux</span>
+        <span>Nordbrew</span><span>Orbitfit</span><span>Havenwood</span><span>Solstice</span><span>Kindred</span><span>Auralux</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Services teaser ===== -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="eyebrow" data-i18n="home.services_teaser.eyebrow">What we do</span>
+        <h2 data-i18n="home.services_teaser.title">Full-service creative, without the agency overhead.</h2>
+        <p class="text-lead mt-1" data-i18n="home.services_teaser.text">From first sketch to final cut, our team plans, produces and ships work that performs — for founders, marketing teams and media brands alike.</p>
+      </div>
+
+      <div class="grid grid-2">
+        <div class="card service-card" data-reveal>
+          <div class="icon-tile">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+          </div>
+          <h3 data-i18n="home.s1_title">Web & Digital Experiences</h3>
+          <p data-i18n="home.s1_text">Fast, accessible, multi-language websites designed to convert and easy to maintain.</p>
+        </div>
+        <div class="card service-card" data-reveal data-reveal-delay="1">
+          <div class="icon-tile">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h9l7 7v9H4z"/><path d="M13 4v7h7"/></svg>
+          </div>
+          <h3 data-i18n="home.s2_title">Brand Strategy & Identity</h3>
+          <p data-i18n="home.s2_text">Positioning, naming and visual systems that give your brand a point of view.</p>
+        </div>
+      </div>
+
+      <div class="text-center mt-3" data-reveal>
+        <a class="btn btn-ghost" href="services.html" data-i18n="home.services_teaser.cta">View all services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Featured project ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="eyebrow" data-i18n="home.featured.eyebrow">Featured project</span>
+        <h2 data-i18n="home.featured.title">Our latest work, up close.</h2>
+      </div>
+
+      <a class="project-card featured" href="work.html" data-reveal>
+        <span class="badge-placeholder" data-i18n="work.featured_badge">Add your project details here</span>
+        <div class="project-thumb">
+          <svg class="placeholder-art" viewBox="0 0 640 360" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Abstract gradient artwork placeholder for featured project">
+            <defs>
+              <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#7C3AED"/>
+                <stop offset="100%" stop-color="#3B82F6"/>
+              </linearGradient>
+            </defs>
+            <rect width="640" height="360" fill="url(#g1)"/>
+            <circle cx="500" cy="80" r="140" fill="#ffffff" opacity="0.12"/>
+            <circle cx="120" cy="300" r="180" fill="#ffffff" opacity="0.08"/>
+          </svg>
+        </div>
+        <div class="project-body">
+          <span class="project-cat" data-i18n="work.p0_cat">Brand Campaign</span>
+          <h3 data-i18n="work.p0_title">Your featured project</h3>
+          <p data-i18n="work.p0_text">This spot is reserved for your real case study — swap in your project name, imagery and a short write-up of the results.</p>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== Testimonial ===== -->
+  <section class="section-tight">
+    <div class="container">
+      <div class="testimonial" data-reveal>
+        <blockquote data-i18n="home.testimonial.quote">"Lumis Media didn't just deliver assets — they gave our brand a voice. Every deadline was met, every frame felt intentional."</blockquote>
+        <div class="author">
+          <div class="avatar" aria-hidden="true"></div>
+          <div>
+            <div style="font-weight:600" data-i18n="home.testimonial.name">Marketing Director</div>
+            <div style="font-size:0.85rem; opacity:0.8" data-i18n="home.testimonial.role">Client name pending — add a real quote here</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Newsletter / final CTA ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="cta-band" data-reveal>
+        <div class="grid grid-2">
+          <div>
+            <span class="eyebrow" style="background:rgba(255,255,255,0.12); color:#fff;" data-i18n="common.newsletter.eyebrow">Stay in the loop</span>
+            <h2 data-i18n="common.newsletter.title">Ideas worth reading, once a month.</h2>
+            <p class="text-lead" style="color:rgba(255,255,255,0.75)" data-i18n="common.newsletter.text">Field notes on media, brand and culture — no fluff, unsubscribe anytime.</p>
+          </div>
+          <div>
+            <form class="form-row" data-newsletter-form>
+              <label class="sr-only" for="newsletter-email" data-i18n="common.newsletter.placeholder">you@company.com</label>
+              <input id="newsletter-email" type="email" required data-i18n-placeholder="common.newsletter.placeholder" placeholder="you@company.com">
+              <button class="btn btn-light" type="submit" data-i18n="common.newsletter.cta">Subscribe</button>
+            </form>
+            <p class="form-note" data-i18n="common.newsletter.note">By subscribing you agree to receive occasional emails from Lumis Media.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== Footer ===== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="index.html">
+          <img src="assets/img/logo.jpg" alt="Lumis Media logo" width="38" height="38">
+          <span class="brand-word">lumis<span>.</span></span>
+        </a>
+        <p class="mt-2" style="max-width:32ch" data-i18n="common.footer.tagline">A creative media studio crafting stories, brands and campaigns that move audiences.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M7 10v7M7 7v.01M11 17v-4.5a2.5 2.5 0 0 1 5 0V17"/></svg></a>
+          <a href="#" aria-label="X (Twitter)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4l16 16M20 4L4 20"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="6" width="18" height="12" rx="4"/><path d="M11 10l4 2-4 2z" fill="currentColor" stroke="none"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4 data-i18n="common.footer.col_sitemap">Sitemap</h4>
+        <ul>
+          <li><a href="index.html" data-i18n="common.nav.home">Home</a></li>
+          <li><a href="work.html" data-i18n="common.nav.work">Work</a></li>
+          <li><a href="services.html" data-i18n="common.nav.services">Services</a></li>
+          <li><a href="about.html" data-i18n="common.nav.about">About</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="common.footer.col_contact">Contact</h4>
+        <ul>
+          <li><a href="mailto:hello@lumis.media">hello@lumis.media</a></li>
+          <li><a href="tel:+43100000000">+43 1 000 0000</a></li>
+          <li><a href="contact.html" data-i18n="common.nav.contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="common.footer.col_legal">Legal</h4>
+        <ul>
+          <li><a href="#" data-i18n="common.footer.imprint">Imprint</a></li>
+          <li><a href="#" data-i18n="common.footer.privacy">Privacy Policy</a></li>
+          <li><a href="#" data-i18n="common.footer.terms">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Lumis Media. <span data-i18n="common.footer.rights">All rights reserved.</span></span>
+      <span data-i18n="common.footer.made_with">Designed & built with care.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/i18n-data.js"></script>
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

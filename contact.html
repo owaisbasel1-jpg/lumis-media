@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title data-page-title="meta.contact_title">Contact — Lumis Media</title>
+<meta name="description" content="Get in touch with Lumis Media — tell us about your project and we'll reply within one business day.">
+<link rel="icon" href="assets/img/logo.jpg">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main" data-i18n="common.skip_link">Skip to main content</a>
+
+<div class="nav-wrap">
+  <div class="container">
+    <nav class="navbar" aria-label="Primary">
+      <a class="brand" href="index.html">
+        <img src="assets/img/logo.jpg" alt="Lumis Media logo" width="38" height="38">
+        <span class="brand-word">lumis<span>.</span></span>
+      </a>
+      <div class="nav-links" role="menubar">
+        <a href="index.html" data-i18n="common.nav.home">Home</a>
+        <a href="work.html" data-i18n="common.nav.work">Work</a>
+        <a href="services.html" data-i18n="common.nav.services">Services</a>
+        <a href="about.html" data-i18n="common.nav.about">About</a>
+        <a href="contact.html" aria-current="page" data-i18n="common.nav.contact">Contact</a>
+      </div>
+      <div class="nav-actions">
+        <div class="lang-switch" data-lang-switch>
+          <button class="lang-btn" data-lang-toggle aria-haspopup="true" aria-expanded="false" aria-label="Change language">
+            <svg viewBox="0 0 24 24" fill="none" width="16" height="16" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.7 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.7-3.8-9s1.3-6.4 3.8-9Z"/></svg>
+            <span data-lang-current>EN</span>
+          </button>
+          <div class="lang-menu" role="menu">
+            <button role="menuitem" data-lang-option="en">English</button>
+            <button role="menuitem" data-lang-option="de">Deutsch</button>
+          </div>
+        </div>
+        <a class="btn btn-primary" href="contact.html" data-i18n="common.nav_cta">Start a project</a>
+        <button class="nav-toggle" data-menu-toggle aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+          <svg viewBox="0 0 24 24" fill="none" width="20" height="20" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </nav>
+  </div>
+</div>
+
+<div class="mobile-menu" id="mobile-menu" data-mobile-menu>
+  <div class="mobile-menu-panel">
+    <button class="mobile-menu-close" data-menu-close aria-label="Close menu">
+      <svg viewBox="0 0 24 24" fill="none" width="18" height="18" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <a href="index.html" data-i18n="common.nav.home">Home</a>
+    <a href="work.html" data-i18n="common.nav.work">Work</a>
+    <a href="services.html" data-i18n="common.nav.services">Services</a>
+    <a href="about.html" data-i18n="common.nav.about">About</a>
+    <a href="contact.html" data-i18n="common.nav.contact">Contact</a>
+    <a class="btn btn-primary btn-block mt-2" href="contact.html" data-i18n="common.nav_cta">Start a project</a>
+  </div>
+</div>
+
+<main id="main">
+
+  <section class="page-hero container">
+    <div class="section-head" data-reveal>
+      <span class="eyebrow" data-i18n="contact.hero.eyebrow">Get in touch</span>
+      <h1 data-i18n="contact.hero.title">Let's build something worth watching.</h1>
+      <p class="text-lead mt-1" data-i18n="contact.hero.lead">Tell us a little about your project and we'll get back to you within one business day.</p>
+    </div>
+  </section>
+
+  <section class="section-tight">
+    <div class="container grid grid-2" style="align-items:start; gap:clamp(2rem,5vw,4rem);">
+
+      <div class="card" data-reveal style="padding:clamp(1.75rem,3vw,2.5rem);">
+        <form data-contact-form novalidate>
+          <div class="field">
+            <label for="name" data-i18n="contact.form.name_label">Full name</label>
+            <input id="name" name="name" type="text" data-required autocomplete="name">
+            <p class="error-msg" data-i18n="contact.form.name_error">Please enter your name.</p>
+          </div>
+          <div class="field">
+            <label for="email" data-i18n="contact.form.email_label">Email address</label>
+            <input id="email" name="email" type="email" data-required autocomplete="email">
+            <p class="error-msg" data-i18n="contact.form.email_error">Please enter a valid email address.</p>
+          </div>
+          <div class="field">
+            <label for="company" data-i18n="contact.form.company_label">Company (optional)</label>
+            <input id="company" name="company" type="text" autocomplete="organization">
+          </div>
+          <div class="field">
+            <label for="message" data-i18n="contact.form.message_label">Tell us about your project</label>
+            <textarea id="message" name="message" data-required></textarea>
+            <p class="error-msg" data-i18n="contact.form.message_error">Please add a short message.</p>
+          </div>
+          <button class="btn btn-primary btn-block" type="submit" data-i18n="contact.form.submit">Send message</button>
+          <div class="form-success" data-form-success>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+            <span data-i18n="contact.form.success">Thanks — your message is on its way. We'll reply within one business day.</span>
+          </div>
+        </form>
+      </div>
+
+      <div data-reveal data-reveal-delay="1">
+        <span class="eyebrow" data-i18n="contact.info.eyebrow">Direct contact</span>
+        <h2 data-i18n="contact.info.title">Prefer email or a call?</h2>
+
+        <ul class="mt-2">
+          <li class="flex items-center gap-2 mt-2">
+            <div class="icon-tile" style="margin-bottom:0;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18v12H3z"/><path d="M3 7l9 6 9-6"/></svg></div>
+            <div>
+              <div class="text-soft" style="font-size:0.82rem" data-i18n="contact.info.email_label">Email</div>
+              <a href="mailto:hello@lumis.media" style="font-weight:600">hello@lumis.media</a>
+            </div>
+          </li>
+          <li class="flex items-center gap-2 mt-2">
+            <div class="icon-tile" style="margin-bottom:0;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.4 2.1L8 9.9a16 16 0 0 0 6 6l1.4-1.4a2 2 0 0 1 2.1-.4c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.8 2.2z"/></svg></div>
+            <div>
+              <div class="text-soft" style="font-size:0.82rem" data-i18n="contact.info.phone_label">Phone</div>
+              <a href="tel:+43100000000" style="font-weight:600">+43 1 000 0000</a>
+            </div>
+          </li>
+          <li class="flex items-center gap-2 mt-2">
+            <div class="icon-tile" style="margin-bottom:0;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.1-7-11a7 7 0 0 1 14 0c0 4.9-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></div>
+            <div>
+              <div class="text-soft" style="font-size:0.82rem" data-i18n="contact.info.address_label">Studio</div>
+              <span style="font-weight:600" data-i18n="contact.info.address_value">Lumis Media, Mariahilfer Straße 12, 1060 Vienna, Austria</span>
+            </div>
+          </li>
+          <li class="flex items-center gap-2 mt-2">
+            <div class="icon-tile" style="margin-bottom:0;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg></div>
+            <div>
+              <div class="text-soft" style="font-size:0.82rem" data-i18n="contact.info.hours_label">Studio hours</div>
+              <span style="font-weight:600" data-i18n="contact.info.hours_value">Mon–Fri, 9:00–18:00 CET</span>
+            </div>
+          </li>
+        </ul>
+
+        <div class="mt-3" style="border-radius:var(--radius-lg); overflow:hidden; border:1px solid var(--color-border); aspect-ratio:16/9;">
+          <svg viewBox="0 0 400 225" width="100%" height="100%" role="img" aria-label="Map placeholder showing the studio location">
+            <rect width="400" height="225" fill="#F7F6FC"/>
+            <path d="M0 160 Q100 120 200 150 T400 130" stroke="#D6D2EC" stroke-width="10" fill="none"/>
+            <path d="M0 90 Q120 60 220 90 T400 70" stroke="#D6D2EC" stroke-width="6" fill="none"/>
+            <circle cx="200" cy="112" r="10" fill="#7C3AED"/>
+            <circle cx="200" cy="112" r="18" fill="#7C3AED" opacity="0.2"/>
+          </svg>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="index.html">
+          <img src="assets/img/logo.jpg" alt="Lumis Media logo" width="38" height="38">
+          <span class="brand-word">lumis<span>.</span></span>
+        </a>
+        <p class="mt-2" style="max-width:32ch" data-i18n="common.footer.tagline">A creative media studio crafting stories, brands and campaigns that move audiences.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M7 10v7M7 7v.01M11 17v-4.5a2.5 2.5 0 0 1 5 0V17"/></svg></a>
+          <a href="#" aria-label="X (Twitter)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4l16 16M20 4L4 20"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="6" width="18" height="12" rx="4"/><path d="M11 10l4 2-4 2z" fill="currentColor" stroke="none"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4 data-i18n="common.footer.col_sitemap">Sitemap</h4>
+        <ul>
+          <li><a href="index.html" data-i18n="common.nav.home">Home</a></li>
+          <li><a href="work.html" data-i18n="common.nav.work">Work</a></li>
+          <li><a href="services.html" data-i18n="common.nav.services">Services</a></li>
+          <li><a href="about.html" data-i18n="common.nav.about">About</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="common.footer.col_contact">Contact</h4>
+        <ul>
+          <li><a href="mailto:hello@lumis.media">hello@lumis.media</a></li>
+          <li><a href="tel:+43100000000">+43 1 000 0000</a></li>
+          <li><a href="contact.html" data-i18n="common.nav.contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="common.footer.col_legal">Legal</h4>
+        <ul>
+          <li><a href="#" data-i18n="common.footer.imprint">Imprint</a></li>
+          <li><a href="#" data-i18n="common.footer.privacy">Privacy Policy</a></li>
+          <li><a href="#" data-i18n="common.footer.terms">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Lumis Media. <span data-i18n="common.footer.rights">All rights reserved.</span></span>
+      <span data-i18n="common.footer.made_with">Designed & built with care.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/i18n-data.js"></script>
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
