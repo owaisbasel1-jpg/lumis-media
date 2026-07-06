@@ -226,9 +226,7 @@ section { position: relative; }
   padding-top: 0.9rem;
 }
 .navbar {
-  max-width: var(--container-max);
-  margin-inline: auto;
-  margin-inline: max(1rem, calc((100vw - var(--container-max)) / 2 + 1rem));
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
