@@ -337,7 +337,7 @@ section { position: relative; }
 }
 .hero-bg-blob {
   position: absolute;
-  inset: -20% -10% auto auto;
+  inset: 4% -10% auto auto;
   width: min(60vw, 720px);
   aspect-ratio: 1;
   background: var(--gradient-brand);
