@@ -55,8 +55,7 @@ window.LUMIS_I18N = {
     "work": {
       "hero": { "eyebrow": "Selected work", "title": "Case studies, made with care.", "lead": "As a young studio, this space will grow with every project we take on. Here's a first look at what a case study will look like." },
       "filters": { "all": "All", "branding": "Branding", "web": "Web & Digital" },
-      "featured_badge": "Add your project details here",
-      "p0_cat": "Web & Digital", "p0_title": "Your featured project", "p0_text": "This spot is reserved for your real case study — swap in your project name, imagery and a short write-up of the results.",
+      "p0_cat": "Web & Digital", "p0_title": "Medosa Café-Bar — Website & Reservations", "p0_text": "A moody, image-led website for a cocktail and coffee lounge in Ansbach, Germany, with a built-in table reservation flow.",
       "p1_cat": "Branding", "p1_title": "Nordbrew Coffee Co. — Full rebrand", "p1_text": "A ground-up identity and packaging system for a specialty roastery entering three new markets, paired with a new website.",
       "p2_cat": "Web & Digital", "p2_title": "Auralux Studio — Portfolio website", "p2_text": "A fast, minimal portfolio site built to load instantly and showcase work beautifully on any device.",
       "p3_cat": "Web & Digital", "p3_title": "Havenwood Realty — Digital experience", "p3_text": "A story-led website that lifted qualified leads by 64% in the first quarter.",
@@ -170,8 +169,7 @@ window.LUMIS_I18N = {
     "work": {
       "hero": { "eyebrow": "Ausgewählte Arbeiten", "title": "Case Studies mit Sorgfalt gemacht.", "lead": "Als junges Studio wächst dieser Bereich mit jedem Projekt, das wir übernehmen. Hier schon mal ein erster Einblick, wie eine Case Study aussehen wird." },
       "filters": { "all": "Alle", "branding": "Branding", "web": "Web & Digital" },
-      "featured_badge": "Hier Ihre Projektdetails ergänzen",
-      "p0_cat": "Web & Digital", "p0_title": "Ihr ausgewähltes Projekt", "p0_text": "Dieser Platz ist für Ihre echte Case Study reserviert — fügen Sie Projektname, Bilder und eine kurze Erfolgsbeschreibung ein.",
+      "p0_cat": "Web & Digital", "p0_title": "Medosa Café-Bar — Website & Reservierung", "p0_text": "Eine stimmungsvolle, bildstarke Website für eine Cocktail- und Kaffee-Lounge in Ansbach, mit integrierter Tischreservierung.",
       "p1_cat": "Branding", "p1_title": "Nordbrew Coffee Co. — Kompletter Markenrelaunch", "p1_text": "Eine neu entwickelte Identität und Verpackungssystem für eine Spezialitätenrösterei beim Eintritt in drei neue Märkte, ergänzt um eine neue Website.",
       "p2_cat": "Web & Digital", "p2_title": "Auralux Studio — Portfolio-Website", "p2_text": "Eine schnelle, minimalistische Portfolio-Website, die sofort lädt und Arbeiten auf jedem Gerät gut zur Geltung bringt.",
       "p3_cat": "Web & Digital", "p3_title": "Havenwood Realty — Digitales Erlebnis", "p3_text": "Eine narrative Website, die qualifizierte Leads im ersten Quartal um 64 % steigerte.",
