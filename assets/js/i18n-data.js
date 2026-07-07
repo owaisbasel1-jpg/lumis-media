@@ -47,8 +47,8 @@ window.LUMIS_I18N = {
       "s2_title": "Brand Strategy & Identity", "s2_text": "Positioning, naming and visual systems that give your brand a point of view.",
       "featured": { "eyebrow": "Featured project", "title": "Our latest work, up close.", "cta": "View case study" },
       "testimonial": {
-        "quote": "Lumis Media didn't just build us a website — they gave our brand a voice online. Every deadline was met, every detail felt intentional.",
-        "name": "Marketing Director", "role": "Client name pending — add a real quote here"
+        "quote": "Honestly, we didn't even want a website at first. Lumis Media convinced us — and completely exceeded our expectations. Now we love our new site.",
+        "name": "Medosa Café-Bar", "role": "Ansbach, Germany"
       },
       "final_cta": { "eyebrow": "Let's talk", "title": "Have a project in mind?", "text": "Tell us what you're building — we'll get back to you within one business day.", "cta": "Get in touch" }
     },
@@ -161,8 +161,8 @@ window.LUMIS_I18N = {
       "s2_title": "Markenstrategie & Identität", "s2_text": "Positionierung, Naming und visuelle Systeme, die Ihrer Marke eine klare Haltung geben.",
       "featured": { "eyebrow": "Ausgewähltes Projekt", "title": "Unsere neueste Arbeit, im Detail.", "cta": "Case Study ansehen" },
       "testimonial": {
-        "quote": "Lumis Media hat uns nicht nur eine Website gebaut — sie haben unserer Marke online eine Stimme gegeben. Jede Deadline wurde gehalten, jedes Detail wirkte durchdacht.",
-        "name": "Marketingleitung", "role": "Kundenname folgt — hier ein echtes Zitat einfügen"
+        "quote": "Ehrlich gesagt wollten wir anfangs gar keine eigene Website. Lumis Media hat uns überzeugt — und am Ende unsere Erwartungen komplett übertroffen. Jetzt lieben wir unseren neuen Auftritt.",
+        "name": "Medosa Café-Bar", "role": "Ansbach"
       },
       "final_cta": { "eyebrow": "Sprechen wir", "title": "Haben Sie ein Projekt im Kopf?", "text": "Erzählen Sie uns, was Sie vorhaben — wir melden uns innerhalb eines Werktags.", "cta": "Kontakt aufnehmen" }
     },
