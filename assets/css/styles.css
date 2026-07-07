@@ -634,3 +634,11 @@ section { position: relative; }
   animation: skeleton-loading 1.4s ease infinite;
 }
 @keyframes skeleton-loading { 0% { background-position: 100% 50%; } 100% { background-position: 0 50%; } }
+
+/* ---------- Legal content (Imprint / Privacy / Terms) ---------- */
+.legal-content { max-width: 680px; }
+.legal-content h2 { font-size: 1.2rem; margin-top: 2.25rem; margin-bottom: 0.6rem; }
+.legal-content h2:first-child { margin-top: 0; }
+.legal-content p { color: var(--color-text-muted); margin-bottom: 1rem; }
+.legal-content a { color: var(--color-primary); text-decoration: underline; text-underline-offset: 2px; }
+.legal-content a:hover { color: var(--color-primary-dark); }

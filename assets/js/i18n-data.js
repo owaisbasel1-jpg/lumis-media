@@ -111,7 +111,7 @@ window.LUMIS_I18N = {
       "info": {
         "eyebrow": "Direct contact", "title": "Prefer email or a call?",
         "email_label": "Email", "phone_label": "Phone",
-        "address_label": "Studio", "address_value": "Lumis Media, Mariahilfer Straße 12, 1060 Vienna, Austria",
+        "address_label": "Studio", "address_value": "Lumis Media, Schloßbergring 11, 91578 Leutershausen, Germany",
         "hours_label": "Studio hours", "hours_value": "Mon–Fri, 9:00–18:00 CET"
       }
     }
@@ -225,7 +225,7 @@ window.LUMIS_I18N = {
       "info": {
         "eyebrow": "Direkter Kontakt", "title": "Lieber per E-Mail oder Anruf?",
         "email_label": "E-Mail", "phone_label": "Telefon",
-        "address_label": "Studio", "address_value": "Lumis Media, Mariahilfer Straße 12, 1060 Wien, Österreich",
+        "address_label": "Studio", "address_value": "Lumis Media, Schloßbergring 11, 91578 Leutershausen",
         "hours_label": "Öffnungszeiten", "hours_value": "Mo–Fr, 9:00–18:00 MEZ"
       }
     }
