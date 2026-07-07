@@ -36,7 +36,7 @@ window.LUMIS_I18N = {
         "cta_primary": "Start a project", "cta_secondary": "See our work",
         "card_title": "Now building", "card_text": "New website launching for a client this quarter"
       },
-      "stats": { "s1_num": "120+", "s1_label": "Projects delivered", "s2_num": "40+", "s2_label": "Brands worldwide", "s3_num": "8", "s3_label": "Years of craft", "s4_num": "98%", "s4_label": "Client satisfaction" },
+      "stats": { "s1_num": "10+", "s1_label": "Projects delivered", "s2_num": "5+", "s2_label": "Brands worldwide", "s3_num": "1+", "s3_label": "Years of craft", "s4_num": "98%", "s4_label": "Client satisfaction" },
       "marquee_eyebrow": "Trusted by teams building bold brands",
       "services_teaser": {
         "eyebrow": "What we do", "title": "Websites and brand identities, done right.",
@@ -151,7 +151,7 @@ window.LUMIS_I18N = {
         "cta_primary": "Projekt starten", "cta_secondary": "Unsere Arbeiten ansehen",
         "card_title": "Aktuell in Arbeit", "card_text": "Neue Website für einen Kunden startet dieses Quartal"
       },
-      "stats": { "s1_num": "120+", "s1_label": "Umgesetzte Projekte", "s2_num": "40+", "s2_label": "Marken weltweit", "s3_num": "8", "s3_label": "Jahre Erfahrung", "s4_num": "98%", "s4_label": "Kundenzufriedenheit" },
+      "stats": { "s1_num": "10+", "s1_label": "Umgesetzte Projekte", "s2_num": "5+", "s2_label": "Marken weltweit", "s3_num": "1+", "s3_label": "Jahre Erfahrung", "s4_num": "98%", "s4_label": "Kundenzufriedenheit" },
       "marquee_eyebrow": "Vertraut von Teams mit mutigen Marken",
       "services_teaser": {
         "eyebrow": "Was wir tun", "title": "Websites und Markenidentitäten, richtig gemacht.",
