@@ -53,7 +53,7 @@ window.LUMIS_I18N = {
       "final_cta": { "eyebrow": "Let's talk", "title": "Have a project in mind?", "text": "Tell us what you're building — we'll get back to you within one business day.", "cta": "Get in touch" }
     },
     "work": {
-      "hero": { "eyebrow": "Selected work", "title": "Case studies, made with care.", "lead": "A mix of brand identities and website projects. Filter by discipline or browse everything below." },
+      "hero": { "eyebrow": "Selected work", "title": "Case studies, made with care.", "lead": "As a young studio, this space will grow with every project we take on. Here's a first look at what a case study will look like." },
       "filters": { "all": "All", "branding": "Branding", "web": "Web & Digital" },
       "featured_badge": "Add your project details here",
       "p0_cat": "Web & Digital", "p0_title": "Your featured project", "p0_text": "This spot is reserved for your real case study — swap in your project name, imagery and a short write-up of the results.",
@@ -168,7 +168,7 @@ window.LUMIS_I18N = {
       "final_cta": { "eyebrow": "Sprechen wir", "title": "Haben Sie ein Projekt im Kopf?", "text": "Erzählen Sie uns, was Sie vorhaben — wir melden uns innerhalb eines Werktags.", "cta": "Kontakt aufnehmen" }
     },
     "work": {
-      "hero": { "eyebrow": "Ausgewählte Arbeiten", "title": "Case Studies mit Sorgfalt gemacht.", "lead": "Eine Mischung aus Markenidentitäten und Website-Projekten. Nach Disziplin filtern oder unten alles durchsehen." },
+      "hero": { "eyebrow": "Ausgewählte Arbeiten", "title": "Case Studies mit Sorgfalt gemacht.", "lead": "Als junges Studio wächst dieser Bereich mit jedem Projekt, das wir übernehmen. Hier schon mal ein erster Einblick, wie eine Case Study aussehen wird." },
       "filters": { "all": "Alle", "branding": "Branding", "web": "Web & Digital" },
       "featured_badge": "Hier Ihre Projektdetails ergänzen",
       "p0_cat": "Web & Digital", "p0_title": "Ihr ausgewähltes Projekt", "p0_text": "Dieser Platz ist für Ihre echte Case Study reserviert — fügen Sie Projektname, Bilder und eine kurze Erfolgsbeschreibung ein.",
