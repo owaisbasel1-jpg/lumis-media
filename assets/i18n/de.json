@@ -182,15 +182,11 @@
     "team": {
       "eyebrow": "Das Team",
       "title": "Lernen Sie die Menschen hinter der Arbeit kennen.",
-      "text": "Ein kleines, erfahrenes Team — hier echte Profile und Fotos ergänzen.",
-      "t1_name": "Alex Morgan",
-      "t1_role": "Gründung & Kreativleitung",
-      "t2_name": "Jordan Lee",
-      "t2_role": "Lead Web Developer",
-      "t3_name": "Sam Rivera",
-      "t3_role": "Markenstrategie",
-      "t4_name": "Taylor Kim",
-      "t4_role": "UX/UI Design"
+      "text": "Wir zu zweit — jedes Projekt gemeinsam von Anfang bis Ende umgesetzt.",
+      "t1_name": "Owis Al Zoubi",
+      "t1_role": "Gründer & Webentwicklung",
+      "t2_name": "Lam Nguyen",
+      "t2_role": "Mitgründer & Webentwicklung"
     },
     "cta": {
       "title": "Möchten Sie mit uns arbeiten?",

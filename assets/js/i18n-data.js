@@ -91,11 +91,9 @@ window.LUMIS_I18N = {
         "v4_title": "Built for every audience", "v4_text": "Accessible, multi-language work by default — not an afterthought."
       },
       "team": {
-        "eyebrow": "The team", "title": "Meet the people behind the work.", "text": "A small, senior team — add real bios and photos here.",
-        "t1_name": "Alex Morgan", "t1_role": "Founder & Creative Director",
-        "t2_name": "Jordan Lee", "t2_role": "Lead Web Developer",
-        "t3_name": "Sam Rivera", "t3_role": "Brand Strategist",
-        "t4_name": "Taylor Kim", "t4_role": "UX/UI Designer"
+        "eyebrow": "The team", "title": "Meet the people behind the work.", "text": "The two of us — building every project together, start to finish.",
+        "t1_name": "Owis Al Zoubi", "t1_role": "Founder & Web Development",
+        "t2_name": "Lam Nguyen", "t2_role": "Co-Founder & Web Development"
       },
       "cta": { "title": "Want to work with us?", "text": "We're always open to meeting new brands and collaborators.", "cta": "Get in touch" }
     },
@@ -205,11 +203,9 @@ window.LUMIS_I18N = {
         "v4_title": "Für jedes Publikum gemacht", "v4_text": "Barrierearme, mehrsprachige Arbeit von Anfang an — kein nachträglicher Gedanke."
       },
       "team": {
-        "eyebrow": "Das Team", "title": "Lernen Sie die Menschen hinter der Arbeit kennen.", "text": "Ein kleines, erfahrenes Team — hier echte Profile und Fotos ergänzen.",
-        "t1_name": "Alex Morgan", "t1_role": "Gründung & Kreativleitung",
-        "t2_name": "Jordan Lee", "t2_role": "Lead Web Developer",
-        "t3_name": "Sam Rivera", "t3_role": "Markenstrategie",
-        "t4_name": "Taylor Kim", "t4_role": "UX/UI Design"
+        "eyebrow": "Das Team", "title": "Lernen Sie die Menschen hinter der Arbeit kennen.", "text": "Wir zu zweit — jedes Projekt gemeinsam von Anfang bis Ende umgesetzt.",
+        "t1_name": "Owis Al Zoubi", "t1_role": "Gründer & Webentwicklung",
+        "t2_name": "Lam Nguyen", "t2_role": "Mitgründer & Webentwicklung"
       },
       "cta": { "title": "Möchten Sie mit uns arbeiten?", "text": "Wir freuen uns immer über neue Marken und Kooperationen.", "cta": "Kontakt aufnehmen" }
     },

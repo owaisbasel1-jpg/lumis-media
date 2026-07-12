@@ -182,15 +182,11 @@
     "team": {
       "eyebrow": "The team",
       "title": "Meet the people behind the work.",
-      "text": "A small, senior team — add real bios and photos here.",
-      "t1_name": "Alex Morgan",
-      "t1_role": "Founder & Creative Director",
-      "t2_name": "Jordan Lee",
-      "t2_role": "Lead Web Developer",
-      "t3_name": "Sam Rivera",
-      "t3_role": "Brand Strategist",
-      "t4_name": "Taylor Kim",
-      "t4_role": "UX/UI Designer"
+      "text": "The two of us — building every project together, start to finish.",
+      "t1_name": "Owis Al Zoubi",
+      "t1_role": "Founder & Web Development",
+      "t2_name": "Lam Nguyen",
+      "t2_role": "Co-Founder & Web Development"
     },
     "cta": {
       "title": "Want to work with us?",
