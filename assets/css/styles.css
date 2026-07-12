@@ -193,6 +193,7 @@ section { position: relative; }
   min-height: 44px;
 }
 .btn:active { transform: scale(0.97); }
+.btn:disabled { opacity: 0.6; cursor: not-allowed; pointer-events: none; }
 .btn svg { width: 18px; height: 18px; flex-shrink: 0; transition: transform var(--dur-base) var(--ease-out); }
 
 .btn-primary {

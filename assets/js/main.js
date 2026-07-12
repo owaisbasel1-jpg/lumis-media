@@ -121,7 +121,7 @@
     });
   }
 
-  /* ---------- Contact form validation ---------- */
+  /* ---------- Contact form validation + submission ---------- */
   var form = document.querySelector("[data-contact-form]");
   if (form) {
     form.addEventListener("submit", function (e) {
@@ -135,11 +135,33 @@
         if (wrapper) wrapper.classList.toggle("invalid", !ok);
         if (!ok) valid = false;
       });
-      if (valid) {
-        var successEl = form.querySelector("[data-form-success]");
-        if (successEl) successEl.classList.add("show");
-        form.reset();
-      }
+      if (!valid) return;
+
+      var submitBtn = form.querySelector("button[type=submit]");
+      var successEl = form.querySelector("[data-form-success]");
+      var errorEl = form.querySelector("[data-form-error]");
+      if (errorEl) errorEl.style.display = "none";
+      if (submitBtn) { submitBtn.disabled = true; }
+
+      var endpoint = form.getAttribute("action") || "";
+      var ajaxEndpoint = endpoint.replace("https://formsubmit.co/", "https://formsubmit.co/ajax/");
+
+      fetch(ajaxEndpoint, {
+        method: "POST",
+        headers: { "Accept": "application/json" },
+        body: new FormData(form)
+      })
+        .then(function (res) {
+          if (!res.ok) throw new Error("Request failed");
+          if (successEl) successEl.classList.add("show");
+          form.reset();
+        })
+        .catch(function () {
+          if (errorEl) errorEl.style.display = "block";
+        })
+        .finally(function () {
+          if (submitBtn) { submitBtn.disabled = false; }
+        });
     });
     form.querySelectorAll("[data-required]").forEach(function (field) {
       field.addEventListener("input", function () {
